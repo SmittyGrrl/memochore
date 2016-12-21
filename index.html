@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+      <title>Memochore </title>
+
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Sacramento|Oswald" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/simple-grid.css">
+  		<link rel="stylesheet" href="css/normalize.css">
+  		<link rel="stylesheet" href="css/style.css">
+         
+</head>
+       
+<body>
+	<header> 
+		<img src="art/MemochoreLogo.png">
+	 
+		<h1> Score doing chores...</h1>
+	        
+	    <h2> The app that motivates you to ‘compete to complete’ the household chores. </h2> 
+	</header>
+
+	<section class="Question"> 
+      <div class="col-1-1">
+       <h3> How many hours does it take YOU to do each of the following?</h3>
+     </div>
+   </section>
+
+
+
+		<section class="Cleaning">
+	  <img src="art/Clean.png">
+	     <h4> clean the house...</h4>
+	       <nav class="grid grid-pad>
+	         <div class="col-1-1">
+	        <input id="cleaninghours">
+           </div> 
+          </nav> 
+	</section>
+
+
+	<section class="laundry">
+       <img src="art/laundry.png">
+	     <h4> do the laundry...</h4>
+	      <nav class="grid grid-pad">
+           <div class="col-1-1">
+          	<input id="laundryhours">
+          </div> 
+        </nav>
+	</section>
+
+
+	<section class="reminder">
+	  <img src="art/reminder-hand.png">
+		<h4> errands and organization...</h4>
+		<nav class="grid grid-pad">
+		 <div class="col-1-1">
+		   <input id="errandhours">
+	     </div>
+	    </nav>
+	</section>
+
+	  <section class="wavebox">
+	   	<div class="background-grid">
+	  	 <nav class="col-1-1">
+	     	<a href ="#" class="button">time spent
+	     	</a>
+	     </nav>
+	    </div>
+	 </section>
+
+<h5> <span id="solutionA"> hours, you would totally clean up, you should sign up to compete on Memochore today.</h5>
+
+<h5> <span id="solutionB"> hours, hmmm you need some motivation, you should sign up and compete on Memochore today.</h5>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js">
+</script>
+	<script src="js/app.js"></script>
+ 
+ </body>
+ </html>
